@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="startGame">START GAME</button>
+    <div id="gameOver"></div>
+    <div id="score"></div> 
+    <audio id="tetrisSound" src="tetris sound.m4a"></audio>
+    <audio id="tetrisGameOverSound" src="game over sound.m4a"></audio>
+    <audio id="tetrisMoveSound" src="move sound.m4a"></audio>
+    <audio id="tetrisRemoveLineSound" src="remove line sound.m4a"></audio>
+    <canvas height="600px" width="800px" id="baseCanvas"></canvas>
+    <script src="drawingManager.js"></script>
+    <script src="shapeManager.js"></script>
+    <script src="tetrisScript.js"></script>
+
+</body>
+</html>

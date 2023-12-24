@@ -1,0 +1,52 @@
+body {
+    background-image: url(https://images2.alphacoders.com/667/66702.jpg); /* כתובת התמונה */
+    background-size: cover;
+    background-position: center; /* מיקום התמונה במרכז המסך */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* עיצוב לכפתור ההתחלה */
+#startGame {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* ירוק */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startGame:hover {
+    background-color: #45a049; /* ירוק כהה במידה והעכבר מתחיל לעבור עליו */
+}
+
+#startGame:disabled {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cccccc; /* אפור כאשר הכפתור מנוטרל */
+    color: #666666;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+/* עיצוב להודעת "Game Over" */
+#gameOver {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF0000; /* אדום */
+    margin-top: 15px;
+}
+
+/* עיצוב להודעת התוצאה */
+#score {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
